@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: af-jupyterhub-mcp
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/a/af_jupyterhub_mcp/af_jupyterhub_mcp-${{ version }}.tar.gz
-  sha256: f543c6426cb992621b9880a9d6ffc04427610e4e3bd9c05f0f9e61cace13455f
+  sha256: ffce6623cb084a343ab47d2913eb7f2b042507f7237f8511356b285fa874a156
 
 build:
   number: 0
