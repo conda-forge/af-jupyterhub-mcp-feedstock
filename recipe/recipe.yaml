@@ -1,18 +1,18 @@
 schema_version: 1
 
 context:
-  version: "0.2.0"
+  version: "0.2.1"
 
 package:
   name: af-jupyterhub-mcp
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/a6/40/c5c42e3e4979501d9e8a1ce1c7f69289b737cb61ff5a56350565afab0909/af_jupyterhub_mcp-${{ version }}.tar.gz
-  sha256: b9c0671d475df55144d9c74a77940369864f51154098fec5ed97efa04e51efa0
+  url: https://files.pythonhosted.org/packages/58/b3/db8d4642d212aae33e6740bcedf2af42768b487a78317caf0cc187425a55/af_jupyterhub_mcp-${{ version }}.tar.gz
+  sha256: 47f0c192b2cd5903bac06d7db7950c6b8f2d3c6f0198e44a3eaa5ef82174aec7
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
